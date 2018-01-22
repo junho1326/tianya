@@ -31,7 +31,7 @@ export class CommunityPage {
       leaveAnimation: 'modal-slide-out'
     });
     createModal.onDidDismiss(data => {
-      console.log(data);
+      console.log('asdasasd');
     });
     createModal.present();
   }
