@@ -41,11 +41,31 @@ ion-icon {
     &[class*="xhb-menu"] { mask-image: url(../assets/icon_basic/menu.svg);}         //MENU
     &[class*="xhb-alarm"] { mask-image: url(../assets/icon_basic/alarm.svg);}       //ALARM
     &[class*="xhb-filter"] { mask-image: url(../assets/icon_basic/filter.svg);}     //FILTER
+    &[class*="xhb-search"] { mask-image: url(../assets/icon_basic/search.svg);}     //SEARCH
 
     &[class*="xhb-info"] { mask-image: url(../assets/icon_basic/info.svg);}         //정보
+    &[class*="xhb-discount"] { mask-image: url(../assets/icon_basic/discount.svg);} //할인정보
+    &[class*="xhb-food"] { mask-image: url(../assets/icon_basic/food.svg);}         //맛집정보
+    &[class*="xhb-beauty"] { mask-image: url(../assets/icon_basic/beauty.svg);}     //미용정보
+
     &[class*="xhb-life"] { mask-image: url(../assets/icon_basic/life.svg);}         //생활
+    &[class*="xhb-job"] { mask-image: url(../assets/icon_basic/job.svg);}           //취업활동
+    &[class*="xhb-home"] { mask-image: url(../assets/icon_basic/home.svg);}         //주거정보
+    &[class*="xhb-used"] { mask-image: url(../assets/icon_basic/used.svg);}         //중고시장
+    &[class*="xhb-phone"] { mask-image: url(../assets/icon_basic/phone.svg);}       //휴대폰
+    &[class*="xhb-car"] { mask-image: url(../assets/icon_basic/car.svg);}           //자동차
+    &[class*="xhb-consult"] { mask-image: url(../assets/icon_basic/consult.svg);}   //자동차
+
     &[class*="xhb-trade"] { mask-image: url(../assets/icon_basic/trade.svg);}       //교류
+    &[class*="xhb-pencil"] { mask-image: url(../assets/icon_basic/pencil.svg);}     //유학이야기
+    &[class*="xhb-hobby"] { mask-image: url(../assets/icon_basic/hobby.svg);}       //취미이야기
+    &[class*="xhb-club"] { mask-image: url(../assets/icon_basic/club.svg);}         //동아리
+
     &[class*="xhb-trip"] { mask-image: url(../assets/icon_basic/trip.svg);}         //여행
+    &[class*="xhb-guide"] { mask-image: url(../assets/icon_basic/guide.svg);}       //여행 가이드
+    &[class*="xhb-tripcomment"] { mask-image: url(../assets/icon_basic/tripcomment.svg);}       //여행 후기
+    &[class*="xhb-reservation"] { mask-image: url(../assets/icon_basic/reservation.svg);}       //호텔.팬션
+    &[class*="xhb-promotion"] { mask-image: url(../assets/icon_basic/promotion.svg);}       //프로모션
 
     &[class*="xhb-notice"] { mask-image: url(../assets/icon_basic/notice.svg);}     //공지사항
     &[class*="xhb-cscenter"] { mask-image: url(../assets/icon_basic/cscenter.svg);} //고객센터
