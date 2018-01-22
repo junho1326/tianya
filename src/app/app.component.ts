@@ -44,7 +44,7 @@ export class MyApp {
     this.afAuth.authState.subscribe(user => {
       if (!user) {
         // you can modify here the page for non. auth users
-        this.nav.setRoot('LoginPage');
+        this.nav.setRoot(FirstRunPage);
       }
       // page for auth. users
       else {
@@ -52,12 +52,12 @@ export class MyApp {
           if (user["emailVerified"]) {
             //Goto Home Page.
             
-              this.nav.setRoot('TabsPage', { animate: false });
+              this.nav.setRoot(FirstRunPage, { animate: false });
             
             //Since we're using a TabsPage an NgZone is required.
           } else {
             //Goto Verification Page.
-            this.nav.setRoot('VerificationPage', { animate: false });
+            this.nav.setRoot(FirstRunPage, { animate: false });
           }
         } 
       }
