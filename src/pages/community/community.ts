@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
 import { AngularFireDatabase} from 'angularfire2/database';
-import { IssuePage } from '../info/issue/issue'
 /**
  * Generated class for the CommunityPage page.
  *
@@ -32,7 +31,7 @@ export class CommunityPage {
       leaveAnimation: 'modal-slide-out'
     });
     createModal.onDidDismiss(data => {
-      console.log(data);
+      console.log('asdasasd');
     });
     createModal.present();
   }
