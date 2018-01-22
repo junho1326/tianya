@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
 import { AngularFireDatabase} from 'angularfire2/database';
-import { IssuePage } from '../info/issue/issue'
+
 /**
  * Generated class for the CommunityPage page.
  *
